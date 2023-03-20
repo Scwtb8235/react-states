@@ -1,37 +1,43 @@
 import React from "react";
 import "./App.css";
+import MyCounter from "./Components/MyCounter";
+import './Components/ClassStateExample/counter.css'
+import IncreaseDecreaseCount from "./Components/IncreaseDecreaseCount";
+import UseEffectForTitle from "./Components/UseEffectForTitle";
 
-// Class Based State Example
-import ClassStateExample from "./Components/ClassStateExample/ClassStateExample";
+// // Class Based State Example
+// import ClassStateExample from "./Components/ClassStateExample/ClassStateExample";
 
-// Counter using class
-import CounterUsingClassState from "./Components/ClassStateExample/CounterUsingClassState";
+// // Counter using class
+// import CounterUsingClassState from "./Components/ClassStateExample/CounterUsingClassState";
 
-// Life cycle with Class States
-import UsingClassLifeCycleComponent from "./Components/ClassStateExample/UsingClassLifeCycleComponent";
+// // Life cycle with Class States
+// import UsingClassLifeCycleComponent from "./Components/ClassStateExample/UsingClassLifeCycleComponent";
 
-// Counter using useState
-import CounterUsingHooksUseState from "./Components/UseState/CounterUsingHooksUseState";
+// // Counter using useState
+// import CounterUsingHooksUseState from "./Components/UseState/CounterUsingHooksUseState";
 
-// useState callback example
-import CounterIncrementDecrement from "./Components/UseState/CounterIncrementDecrement";
+// // useState callback example
+// import CounterIncrementDecrement from "./Components/UseState/CounterIncrementDecrement";
 
-// useEffect
-import UsingUseEffect from "./Components/UseEffect/UsingUseEffect";
+// // useEffect
+// import UsingUseEffect from "./Components/UseEffect/UsingUseEffect";
 
-// Context API with out hooks
-import Component1 from "./Components/UseContext/Component1";
+// // Context API with out hooks
+// import Component1 from "./Components/UseContext/Component1";
 
-// useContext
-import UsingUseContext from "./Components/UseContext/UsingUseContext";
+// // useContext
+// import UsingUseContext from "./Components/UseContext/UsingUseContext";
 
-// First creat context
-export const MyContext = React.createContext();
+// // First creat context
+// export const MyContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <UsingClassLifeCycleComponent />
+  <MyCounter />
+  < IncreaseDecreaseCount />
+  < UseEffectForTitle />
     </div>
   );
 }
